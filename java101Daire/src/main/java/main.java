@@ -4,7 +4,7 @@ public class main {
 
     public static void main(String[] args) {
 
-        double r, pi=3.14, alan, cevre;
+        double r, pi=3.14, alan, cevre, a ;
 
         Scanner input = new Scanner(System.in);
 
@@ -14,7 +14,13 @@ public class main {
         alan = pi * r * r;
         cevre = 2 * pi * r;
 
-        System.out.print("Dairenin alani : " + alan + "\n Dairenin cevresi : " + cevre);
+        System.out.println("Dairenin alani : " + alan + "\n Dairenin cevresi : " + cevre);
+
+        Scanner merkezAci = new Scanner(System.in);
+        System.out.print("Lutfen merkez aci olcusunu giriniz : ");
+        a = merkezAci.nextDouble();
+        a = (pi * ( r * r ) * a)/360;
+        System.out.print("A merkez acili dairenin alani : " + a);
     }
 }
 
@@ -29,4 +35,5 @@ Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı b
 
 𝜋 sayısını = 3.14 alınız.
 
-Formül : (𝜋 * (r*r) * 𝛼) / 360*/
+Formül : (𝜋 * (r*r) * 𝛼) / 360
+*/
