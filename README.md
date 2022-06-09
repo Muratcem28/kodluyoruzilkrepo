@@ -2,7 +2,7 @@
 
 Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Başlangıç Seviye Java ile Backend Web Development Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.
 
-![Github Png](Ekran görüntüsü 2022-06-09 112454.png)
+![Github Png]Ekran görüntüsü 2022-06-09 112454.png)
 
 ## Installation
 
