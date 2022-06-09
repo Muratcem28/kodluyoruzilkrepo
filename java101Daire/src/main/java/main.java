@@ -16,9 +16,8 @@ public class main {
 
         System.out.println("Dairenin alani : " + alan + "\n Dairenin cevresi : " + cevre);
 
-        Scanner merkezAci = new Scanner(System.in);
         System.out.print("Lutfen merkez aci olcusunu giriniz : ");
-        a = merkezAci.nextDouble();
+        a = input.nextDouble();
         a = (pi * ( r * r ) * a)/360;
         System.out.print("A merkez acili dairenin alani : " + a);
     }

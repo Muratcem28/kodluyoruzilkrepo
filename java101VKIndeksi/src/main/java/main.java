@@ -12,7 +12,7 @@ public class main {
         System.out.print("Lutfen kilonuzu giriniz : ");
         kilo = input1.nextFloat();
 
-        indeks = (kilo/boy/boy);
+        indeks = (kilo/boy*boy);
         System.out.print("Vucut kitle indeksiniz : " + indeks);
     }
 }
