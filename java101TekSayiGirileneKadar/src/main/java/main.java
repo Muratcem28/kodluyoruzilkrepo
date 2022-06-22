@@ -11,7 +11,7 @@ public class main {
             System.out.print("Sayi Giriniz : ");
             Scanner input = new Scanner(System.in);
             value = input.nextInt();
-            if(value % 2 == 0){
+            if(value % 4 == 0){
                 total += value;
             }
 
